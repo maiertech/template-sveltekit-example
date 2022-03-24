@@ -1,6 +1,9 @@
 {
 	"name": "sveltekit-example-template",
+	"description": "A GitHub template to create SvelteKit examples which run on StackBlitz.",
 	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "maiertech/sveltekit-example-template",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",

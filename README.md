@@ -1,3 +1,5 @@
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/maiertech/sveltekit-example-template?file=src/routes/index.svelte)
+
 # sveltekit-example-template
 
 This is a [SvelteKit](https://kit.svelte.dev/) skeleton project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create repositories with SvelteKit examples. This repository has been created from the [official SvelteKit template](https://github.com/sveltejs/kit-template-default).
