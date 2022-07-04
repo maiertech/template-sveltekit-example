@@ -17,11 +17,14 @@ You can also launch a SvelteKit project with these shortcuts (maintained by Stac
 
 I update dependencies in this template every now and then. These are the steps:
 
-1. Run `npm init svelte@next .` to regenerate the SvelteKit skeleton project into the **existing** directory.
-1. **Which app template?** Skeleton project.
-1. **Use Typescript?** No.
-1. **Use ESLint?** Yes.
-1. **Use Prettier?** Yes.
-1. **Add Playwright?** No.
-1. Review changes in `svelte.config.js` and make sure I do not loose the Vite HMR config for Gitpod.
+1. Run `npm init svelte .` to regenerate the SvelteKit skeleton project into the existing directory.
+1. **Where should you create your project?** Leave blank for current directory.
+1. **Directory not empty. Continue?** Yes.
+1. **Which Svelte app template?** Skeleton project.
+1. **Add type checking with TypeScript?** No.
+1. **Use ESLint for code linting?** Yes.
+1. **Use Prettier for code formatting?** Yes.
+1. **Add Playwright for browser testing?** No.
+1. Review changes in `svelte.config.js` and make sure to not loose my Vite HMR config for Gitpod.
+1. Review changes in `package.json` and make sure to not loose description and repository fields.
 1. Delete `node_module` and `package-lock.json` and run `npm i`.
