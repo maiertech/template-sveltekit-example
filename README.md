@@ -21,7 +21,7 @@ I update dependencies in this template every now and then. These are the steps:
 1. **Where should we create your project?** Leave blank for current directory.
 1. **Directory not empty. Continue?** Yes.
 1. **Which Svelte app template?** Skeleton project.
-1. **Add type checking with TypeScript?** No.
+1. **Add type checking with TypeScript?** Yes.
 1. **Use ESLint for code linting?** Yes.
 1. **Use Prettier for code formatting?** Yes.
 1. **Add Playwright for browser testing?** No.
