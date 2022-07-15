@@ -18,3 +18,13 @@ vscode:
     - dbaeumer.vscode-eslint
     - esbenp.prettier-vscode
     - svelte.svelte-vscode
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: false
+    addCheck: prevent-merge-on-error
+    addComment: false
+    addBadge: false
