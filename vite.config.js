@@ -5,10 +5,10 @@ const config = {
 	plugins: [sveltekit()],
 	server: {
 		hmr: {
-			clientPort: process.env.GITPOD_WORKSPACE_URL ? 443 : 3000,
+			clientPort: process.env.GITPOD_WORKSPACE_URL ? 443 : 5173,
 			host: process.env.GITPOD_WORKSPACE_URL
-				? process.env.GITPOD_WORKSPACE_URL.replace('https://', '3000-')
-				: 'localhost'
+				? process.env.GITPOD_WORKSPACE_URL.replace('https://', '5173-')
+				: '127.0.0.1'
 		}
 	}
 };
