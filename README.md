@@ -1,31 +1,38 @@
-# sveltekit-example-template
+# create-svelte
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/maiertech/sveltekit-example-template?file=src/routes/index.svelte)
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-This is a [SvelteKit](https://kit.svelte.dev/) skeleton project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create SvelteKit examples.
+## Creating a project
 
-I added configurations for [StackBlitz](https://stackblitz.com/) and [Gitpod](https://www.gitpod.io), i.e. every repository created from this template will run on both platforms without additional configuration. Both platforms install dependencies automatically and run `npm run dev` to launch a preview.
+If you're seeing this, you've probably already done this step. Congrats!
 
-StackBlitz projects can be [embedded in web pages](https://developer.stackblitz.com/docs/platform/embedding/), but [are currently not cross-browser compatible](https://developer.stackblitz.com/docs/platform/browser-support/).
+```bash
+# create a new project in the current directory
+npm init svelte
 
-You can also launch a SvelteKit project with these shortcuts (maintained by StackBlitz):
+# create a new project in my-app
+npm init svelte my-app
+```
 
-- SvelteKit skeleton app: https://node.new/sveltekit.
-- SvelteKit demo app: https://sveltekit.new.
+## Developing
 
-## Keeping dependencies up-to-date
+Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-I update dependencies in this template every now and then. These are the steps:
+```bash
+npm run dev
 
-1. Run `npm init svelte .` to regenerate the SvelteKit skeleton project into the existing directory.
-1. **Where should we create your project?** Leave blank for current directory.
-1. **Directory not empty. Continue?** Yes.
-1. **Which Svelte app template?** Skeleton project.
-1. **Add type checking with TypeScript?** No.
-1. **Use ESLint for code linting?** Yes.
-1. **Use Prettier for code formatting?** Yes.
-1. **Add Playwright for browser testing?** No.
-1. Review changes in `svelte.config.js`.
-1. Review changes in `vite.config.js` and make sure to not loose my Vite HMR config for Gitpod.
-1. Review changes in `package.json` and make sure to not loose description and repository fields.
-1. Delete `node_module` and `package-lock.json` and run `npm i`.
+# or start the server and open the app in a new browser tab
+npm run dev -- --open
+```
+
+## Building
+
+To create a production version of your app:
+
+```bash
+npm run build
+```
+
+You can preview the production build with `npm run preview`.
+
+> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
