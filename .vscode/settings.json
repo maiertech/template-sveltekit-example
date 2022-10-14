@@ -11,5 +11,7 @@
 	},
 	"files.eol": "\n",
 	"files.insertFinalNewline": true,
-	"files.trimTrailingWhitespace": true
+	"files.trimTrailingWhitespace": true,
+
+	"svelte.enable-ts-plugin": true
 }
