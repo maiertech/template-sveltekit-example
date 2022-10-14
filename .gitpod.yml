@@ -1,5 +1,6 @@
 ports:
   - port: 5173
+    visibility: public
     onOpen: open-preview
 
 tasks:

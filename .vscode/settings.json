@@ -3,5 +3,13 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
-	}
+	},
+	"editor.tabSize": 2,
+
+	"files.associations": {
+		"*.svx": "markdown"
+	},
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true
 }
