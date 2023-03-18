@@ -16,8 +16,5 @@ I update dependencies in this template now and then. These are the steps:
 1. **Directory not empty. Continue?** Yes.
 1. **Which Svelte app template?** Skeleton project.
 1. **Add type checking with TypeScript?** Yes, using JavaScript with JSDoc comments.
-1. **Use ESLint for code linting?** Yes.
-1. **Use Prettier for code formatting?** Yes.
-1. **Add Playwright for browser testing?** No.
-1. **Add Vitest for unit testing?** No.
+1. Add ESLint and Prettier.
 1. Delete `node_module` and `package-lock.json` and run `npm i`.
