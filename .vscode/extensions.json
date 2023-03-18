@@ -1,9 +1,3 @@
 {
-	"recommendations": [
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"rangav.vscode-thunder-client",
-		"svelte.svelte-vscode",
-		"znck.grammarly"
-	]
+	"recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode", "svelte.svelte-vscode"]
 }
