@@ -1,11 +1,10 @@
 # sveltekit-example-template
 
-This is a [SvelteKit](https://kit.svelte.dev/) skeleton project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create SvelteKit examples. I added a configuration [Gitpod](https://www.gitpod.io) and workspace settings.
+This is a [SvelteKit](https://kit.svelte.dev/) skeleton project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create SvelteKit examples:
 
-You can also launch a SvelteKit project with these shortcuts (maintained by StackBlitz):
-
-- SvelteKit skeleton app: https://node.new/sveltekit.
-- SvelteKit demo app: https://sveltekit.new.
+- It uses [JSDoc annotations](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html) for TypeScript support.
+- It comes with a `.gitpod.yml` configuration for [Gitpod](https://www.gitpod.io).
+- It comes with workspace settings for VS Code.
 
 ## Keeping dependencies up-to-date
 
