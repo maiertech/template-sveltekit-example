@@ -1,4 +1,4 @@
-# sveltekit-example-template
+# template-sveltekit-example
 
 This is a [SvelteKit](https://kit.svelte.dev/) skeleton project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create SvelteKit examples:
 
