@@ -3,6 +3,7 @@
 This is a [SvelteKit](https://kit.svelte.dev/) skeleton project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create SvelteKit examples:
 
 - It uses [JSDoc annotations](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html) for TypeScript support.
+- It comes with linting support for JSDoc.
 - It comes with workspace settings for VS Code.
 
 ## Keeping dependencies up-to-date
@@ -10,7 +11,7 @@ This is a [SvelteKit](https://kit.svelte.dev/) skeleton project which I use as a
 I update dependencies in this template now and then. These are the steps:
 
 1. Run `npm create svelte@latest .` to regenerate the SvelteKit skeleton project into the existing directory.
-1. **Where should we create your project?** Leave blank for the current directory.
+1. **Where should we create your project?** Hit enter to use the current directory.
 1. **Directory not empty. Continue?** Yes.
 1. **Which Svelte app template?** Skeleton project.
 1. **Add type checking with TypeScript?** Yes, using JavaScript with JSDoc comments.
