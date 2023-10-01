@@ -18,8 +18,8 @@ devDependencies:
     specifier: ^8.5.0
     version: 8.10.0(eslint@8.46.0)
   eslint-plugin-jsdoc:
-    specifier: ^46.2.6
-    version: 46.4.6(eslint@8.46.0)
+    specifier: ^46.8.2
+    version: 46.8.2(eslint@8.46.0)
   eslint-plugin-svelte:
     specifier: ^2.30.0
     version: 2.32.4(eslint@8.46.0)(svelte@4.1.2)
@@ -739,8 +739,8 @@ packages:
       eslint: 8.46.0
     dev: true
 
-  /eslint-plugin-jsdoc@46.4.6(eslint@8.46.0):
-    resolution: {integrity: sha512-z4SWYnJfOqftZI+b3RM9AtWL1vF/sLWE/LlO9yOKDof9yN2+n3zOdOJTGX/pRE/xnPsooOLG2Rq6e4d+XW3lNw==}
+  /eslint-plugin-jsdoc@46.8.2(eslint@8.46.0):
+    resolution: {integrity: sha512-5TSnD018f3tUJNne4s4gDWQflbsgOycIKEUBoCLn6XtBMgNHxQFmV8vVxUtiPxAQq8lrX85OaSG/2gnctxw9uQ==}
     engines: {node: '>=16'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
