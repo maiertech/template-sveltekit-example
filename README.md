@@ -16,7 +16,7 @@ I update dependencies in this template regularly. These are the steps:
 1. **Which Svelte app template?** Skeleton project.
 1. **Add type checking with TypeScript?** Yes, using JavaScript with JSDoc comments.
 1. Add ESLint and Prettier.
-1. Revert `README.md` (on StackBlitz copy content from GitHub website to revert).
+1. Revert `README.md`.
 1. Run `pnpm i -D eslint-plugin-jsdoc`.
-1. Check changes in `.eslintrc.js` and manually revert preserving `eslint-plugin-jsdoc`.
+1. Check changes in `eslint.config.js` and manually revert preserving `eslint-plugin-jsdoc`.
 1. Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.
