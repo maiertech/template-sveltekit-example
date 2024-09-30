@@ -20,3 +20,7 @@ I update dependencies in this template regularly. These are the steps:
 1. Run `pnpm i -D eslint-plugin-jsdoc`.
 1. Check changes in `eslint.config.js` and manually revert preserving `eslint-plugin-jsdoc`.
 1. Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.
+
+## Debugging
+
+Just launch the application in the [JavaScript Debug Terminal](https://code.visualstudio.com/docs/editor/debugging#_launch-javascript-debug-terminal).
