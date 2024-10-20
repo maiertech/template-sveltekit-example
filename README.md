@@ -2,11 +2,14 @@
 
 You probably don't need this template and should just run `npx sv create`.
 
-This is a [SvelteKit](https://kit.svelte.dev/) minimal project, which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to speed up my workflow when creating screencasts.
+This is a [SvelteKit](https://kit.svelte.dev/) minimal project, which I use as a
+[GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
+to speed up my workflow when creating screencasts.
 
 ## Keeping dependencies up-to-date
 
-I update dependencies in this template regularly. Run `npx sv create` to regenerate a minimal SvelteKit project into the existing directory.
+I update dependencies in this template regularly. Run `npx sv create` to regenerate a minimal
+SvelteKit project into the existing directory.
 
 ### Where would you like your project to be created?
 
@@ -36,4 +39,5 @@ Yes, using TypeScript syntax.
 
 ## Debugging
 
-Just launch the application in the [JavaScript Debug Terminal](https://code.visualstudio.com/docs/editor/debugging#_launch-javascript-debug-terminal).
+Just launch the application in the
+[JavaScript Debug Terminal](https://code.visualstudio.com/docs/editor/debugging#_launch-javascript-debug-terminal).
