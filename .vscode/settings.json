@@ -4,4 +4,22 @@
 		"editor.defaultFormatter": "svelte.svelte-vscode"
 	},
 	"svelte.enable-ts-plugin": true
+
+	// Uncomment the settings below for a screencast.
+	// Disable `Cursor Tab` in Cursor Settings and reload window.
+
+	// "breadcrumbs.enabled": false,
+
+	// "editor.formatOnSave": true,
+	// "editor.hover.enabled": false,
+	// "editor.lineHeight": 22,
+	// "editor.lineNumbers": "off",
+	// "editor.quickSuggestions": {
+	// 	"other": "off",
+	// 	"comments": "off",
+	// 	"strings": "off"
+	// },
+	// "editor.suggestOnTriggerCharacters": false,
+
+	// "workbench.statusBar.visible": false
 }
