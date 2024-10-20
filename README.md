@@ -1,19 +1,38 @@
 # template-sveltekit-example
 
-This is a [SvelteKit](https://kit.svelte.dev/) skeleton project which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to create SvelteKit examples.
+You probably don't need this template and should just run `npx sv create`.
+
+This is a [SvelteKit](https://kit.svelte.dev/) minimal project, which I use as a [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) to speed up my workflow when creating screencasts.
 
 ## Keeping dependencies up-to-date
 
-I update dependencies in this template regularly. These are the steps:
+I update dependencies in this template regularly. Run `npx sv create` to regenerate a minimal SvelteKit project into the existing directory.
 
-1. Run `pnpm create svelte@latest .` to regenerate the SvelteKit skeleton project into the existing directory.
-1. **Where should we create your project?** Hit enter to use the current directory.
-1. **Directory not empty. Continue?** Yes.
-1. **Which Svelte app template?** Skeleton project.
-1. **Add type checking with TypeScript?** Yes, using TypeScript syntax.
-1. Add ESLint, Prettier and Svelte 5.
-1. Revert `README.md`.
-1. Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.
+### Where would you like your project to be created?
+
+Hit enter to use the current directory.
+
+### Directory not empty. Continue?
+
+Yes.
+
+### Which template would you like?
+
+Skeleton minimal.
+
+### Add type checking with TypeScript?
+
+Yes, using TypeScript syntax.
+
+### What would you like to add to your project?
+
+- `prettier`
+- `eslint`
+
+### Wrap it up
+
+- Revert `README.md`.
+- Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.
 
 ## Debugging
 
