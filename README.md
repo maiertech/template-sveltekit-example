@@ -8,8 +8,9 @@ to speed up my workflow when creating screencasts.
 
 ## Keeping dependencies up-to-date
 
-I update dependencies in this template regularly. Run `npx sv create` to regenerate a minimal
-SvelteKit project into the existing directory.
+Before updating the dependencies in this template, delete `eslint.config.js` because it will not be
+regenerated if it exists already. Then run `npx sv create` to regenerate a minimal SvelteKit project
+into the existing directory.
 
 ### Where would you like your project to be created?
 
@@ -21,7 +22,7 @@ Yes.
 
 ### Which template would you like?
 
-Skeleton minimal.
+SvelteKit minimal.
 
 ### Add type checking with TypeScript?
 
@@ -29,13 +30,19 @@ Yes, using TypeScript syntax.
 
 ### What would you like to add to your project?
 
-- `prettier`
-- `eslint`
+- [x] `prettier`
+- [x] `eslint`
+
+### Which package manager do you want to install dependencies with?
+
+`pnpm`
 
 ### Wrap it up
 
 - Revert `README.md`.
+- Revert `.vscode/settings.json`.
 - Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.
+- Run `pnpm dev` to test if the app still launches.
 
 ## Debugging
 
