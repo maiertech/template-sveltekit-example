@@ -32,6 +32,7 @@ Yes, using TypeScript syntax.
 
 - [x] `prettier`
 - [x] `eslint`
+- [x] `devtools-json`
 
 ### Which package manager do you want to install dependencies with?
 
