@@ -1,6 +1,6 @@
 # template-sveltekit-example
 
-You probably don't need this template and should just run `npx sv create`.
+You probably don't need this template and should just run `pnpm dlx sv create`.
 
 This is a [SvelteKit](https://kit.svelte.dev/) minimal project, which I use as a
 [GitHub template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
@@ -9,8 +9,8 @@ to speed up my workflow when creating screencasts.
 ## Keeping dependencies up-to-date
 
 Before updating the dependencies in this template, delete `eslint.config.js` because it will not be
-regenerated if it exists already. Then run `npx sv create` to regenerate a minimal SvelteKit project
-into the existing directory.
+regenerated if it exists already. Then run `pnpm dlx sv create` to regenerate a minimal SvelteKit
+project into the existing directory.
 
 ### Where would you like your project to be created?
 
@@ -33,7 +33,6 @@ Yes, using TypeScript syntax.
 - [x] `prettier`
 - [x] `eslint`
 - [x] `devtools-json`
-- [x] `mcp` (for VS Code)
 
 ### Which package manager do you want to install dependencies with?
 
