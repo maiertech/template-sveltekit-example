@@ -32,7 +32,6 @@ Yes, using TypeScript syntax.
 
 - [x] `prettier`
 - [x] `eslint`
-- [x] `devtools-json`
 
 ### Which package manager do you want to install dependencies with?
 
@@ -41,11 +40,6 @@ Yes, using TypeScript syntax.
 ### Wrap it up
 
 - Revert `README.md`.
-- Revert `.vscode/settings.json`.
+- Remove folder `.vscode`.
 - Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.
 - Run `pnpm dev` to test if the app still launches.
-
-## Debugging
-
-Just launch the application in the
-[JavaScript Debug Terminal](https://code.visualstudio.com/docs/editor/debugging#_launch-javascript-debug-terminal).
