@@ -40,6 +40,6 @@ Yes, using TypeScript syntax.
 ### Wrap it up
 
 - Revert `README.md`.
-- Remove folder `.vscode`.
+- Remove generatedfolder `.vscode`.
 - Delete folder `node_modules` and file `pnpm-lock.yaml` and run `pnpm i`.
 - Run `pnpm dev` to test if the app still launches.
